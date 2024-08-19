@@ -1,0 +1,44 @@
+body{
+    color:black;
+    background:darkolivegreen;
+    margin:0px;
+}
+
+header{
+    border: solid 2px rgb(255, 255, 255);
+    padding:20px;
+    text-align: center;
+    font-size:35px;
+}
+
+.beginning{
+    color: rgb(0, 0, 0);
+    background-image: url(https://akamai.sscdn.co/uploadfile/letras/fotos/4/c/c/1/4cc11a26c62db7905bf2c1b4bf01033a.jpg);
+    padding-bottom:40px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria1-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria1{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria1-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria1-videos img:hover{
+    opacity: 1.0;
+   border: 2px solid black;
+}
